@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaPlayer"
+    android:background="@drawable/insta_gradient">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feed_gradient"
+        android:backgroundTint="#ffb6c1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:id="@+id/play"
+        android:text="Play Default Music"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feed_gradient"
+        android:backgroundTint="#ffb6c1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/pause"
+        android:layout_below="@id/play"
+        android:text="Pause Default Music"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feed_gradient"
+        android:backgroundTint="#ffb6c1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/choose"
+        android:layout_below="@id/pause"
+        android:text="Choose from Device"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

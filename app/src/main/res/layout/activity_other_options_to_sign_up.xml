@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherOptionsToSignUp"
+    android:background="@drawable/insta_gradient">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="200dp"
+        android:text="Register With Your Phone Number!"
+        android:id="@+id/OTPSignUp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/login_background"
+        android:textColor="#77FFFFFF"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="12dp"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="350dp"
+        android:text="Register with Phone And Email!"
+        android:id="@+id/realtimeDatabase"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/login_background"
+        android:textColor="#77FFFFFF"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="12dp"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Don't worry, we keep your data safe!"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>

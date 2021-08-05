@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:background="@drawable/insta_gradient">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playAgain"
+        android:layout_below="@+id/score"
+        android:background="@drawable/feed_gradient"
+        android:backgroundTint="#ffb6c1"
+        android:text="Play Again"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaveQuiz"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/feed_gradient"
+        android:backgroundTint="#ffb6c1"
+        android:layout_below="@+id/playAgain"
+        android:text="Exit Quiz"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+</RelativeLayout>
